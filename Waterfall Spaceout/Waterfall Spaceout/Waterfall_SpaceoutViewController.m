@@ -12,7 +12,7 @@
 
 @implementation Waterfall_SpaceoutViewController
 
-@synthesize images;
+@synthesize images, imageView;
 
 - (void)dealloc
 {
@@ -49,7 +49,13 @@
               [UIImage imageNamed:@"12.png"],
               [UIImage imageNamed:@"13.png"],
      nil];
+    
+    UIImage *image = [images objectAtIndex:5];
+    
+    imageView.image = image;
+    
 }
+
 
 
 
