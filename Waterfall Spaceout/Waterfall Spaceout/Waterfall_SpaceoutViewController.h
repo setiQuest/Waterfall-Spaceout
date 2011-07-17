@@ -10,6 +10,10 @@
 
 @interface Waterfall_SpaceoutViewController : UIViewController {
     
+    NSMutableArray *images;
+    
 }
+
+@property (nonatomic, retain) NSMutableArray *images;
 
 @end

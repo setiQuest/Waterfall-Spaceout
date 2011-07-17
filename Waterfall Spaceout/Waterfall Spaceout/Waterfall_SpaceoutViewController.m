@@ -12,6 +12,8 @@
 
 @implementation Waterfall_SpaceoutViewController
 
+@synthesize images;
+
 - (void)dealloc
 {
     [super dealloc];
@@ -27,13 +29,29 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    images = [NSMutableArray arrayWithObjects:
+              [UIImage imageNamed:@"1.png"],
+              [UIImage imageNamed:@"2.png"],
+              [UIImage imageNamed:@"3.png"],
+              [UIImage imageNamed:@"4.png"],
+              [UIImage imageNamed:@"5.png"],
+              [UIImage imageNamed:@"6.png"],
+              [UIImage imageNamed:@"7.png"],
+              [UIImage imageNamed:@"8.png"],
+              [UIImage imageNamed:@"9.png"],
+              [UIImage imageNamed:@"10.png"],
+              [UIImage imageNamed:@"11.png"],
+              [UIImage imageNamed:@"12.png"],
+              [UIImage imageNamed:@"13.png"],
+     nil];
 }
-*/
+
+
 
 - (void)viewDidUnload
 {

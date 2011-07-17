@@ -22,6 +22,19 @@
 		348DDD6113D27156000FC677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD5F13D27156000FC677 /* InfoPlist.strings */; };
 		348DDD6413D27156000FC677 /* Waterfall_SpaceoutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD6313D27156000FC677 /* Waterfall_SpaceoutTests.h */; };
 		348DDD6613D27156000FC677 /* Waterfall_SpaceoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DDD6513D27156000FC677 /* Waterfall_SpaceoutTests.m */; };
+		F8B7ADB113D27D0200A39D7F /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADA413D27D0200A39D7F /* 1.png */; };
+		F8B7ADB213D27D0200A39D7F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADA513D27D0200A39D7F /* 2.png */; };
+		F8B7ADB313D27D0200A39D7F /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADA613D27D0200A39D7F /* 3.png */; };
+		F8B7ADB413D27D0200A39D7F /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADA713D27D0200A39D7F /* 4.png */; };
+		F8B7ADB513D27D0200A39D7F /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADA813D27D0200A39D7F /* 5.png */; };
+		F8B7ADB613D27D0200A39D7F /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADA913D27D0200A39D7F /* 6.png */; };
+		F8B7ADB713D27D0200A39D7F /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADAA13D27D0200A39D7F /* 7.png */; };
+		F8B7ADB813D27D0200A39D7F /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADAB13D27D0200A39D7F /* 8.png */; };
+		F8B7ADB913D27D0200A39D7F /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADAC13D27D0200A39D7F /* 9.png */; };
+		F8B7ADBA13D27D0200A39D7F /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADAD13D27D0200A39D7F /* 10.png */; };
+		F8B7ADBB13D27D0200A39D7F /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADAE13D27D0200A39D7F /* 11.png */; };
+		F8B7ADBC13D27D0200A39D7F /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADAF13D27D0200A39D7F /* 12.png */; };
+		F8B7ADBD13D27D0200A39D7F /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B7ADB013D27D0200A39D7F /* 13.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +68,19 @@
 		348DDD6213D27156000FC677 /* Waterfall SpaceoutTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waterfall SpaceoutTests-Prefix.pch"; sourceTree = "<group>"; };
 		348DDD6313D27156000FC677 /* Waterfall_SpaceoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waterfall_SpaceoutTests.h; sourceTree = "<group>"; };
 		348DDD6513D27156000FC677 /* Waterfall_SpaceoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waterfall_SpaceoutTests.m; sourceTree = "<group>"; };
+		F8B7ADA413D27D0200A39D7F /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F8B7ADA513D27D0200A39D7F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F8B7ADA613D27D0200A39D7F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F8B7ADA713D27D0200A39D7F /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		F8B7ADA813D27D0200A39D7F /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		F8B7ADA913D27D0200A39D7F /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		F8B7ADAA13D27D0200A39D7F /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		F8B7ADAB13D27D0200A39D7F /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		F8B7ADAC13D27D0200A39D7F /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		F8B7ADAD13D27D0200A39D7F /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		F8B7ADAE13D27D0200A39D7F /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		F8B7ADAF13D27D0200A39D7F /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		F8B7ADB013D27D0200A39D7F /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +153,19 @@
 		348DDD3D13D27156000FC677 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8B7ADA413D27D0200A39D7F /* 1.png */,
+				F8B7ADA513D27D0200A39D7F /* 2.png */,
+				F8B7ADA613D27D0200A39D7F /* 3.png */,
+				F8B7ADA713D27D0200A39D7F /* 4.png */,
+				F8B7ADA813D27D0200A39D7F /* 5.png */,
+				F8B7ADA913D27D0200A39D7F /* 6.png */,
+				F8B7ADAA13D27D0200A39D7F /* 7.png */,
+				F8B7ADAB13D27D0200A39D7F /* 8.png */,
+				F8B7ADAC13D27D0200A39D7F /* 9.png */,
+				F8B7ADAD13D27D0200A39D7F /* 10.png */,
+				F8B7ADAE13D27D0200A39D7F /* 11.png */,
+				F8B7ADAF13D27D0200A39D7F /* 12.png */,
+				F8B7ADB013D27D0200A39D7F /* 13.png */,
 				348DDD3E13D27156000FC677 /* Waterfall Spaceout-Info.plist */,
 				348DDD3F13D27156000FC677 /* InfoPlist.strings */,
 				348DDD4213D27156000FC677 /* Waterfall Spaceout-Prefix.pch */,
@@ -228,6 +267,19 @@
 				348DDD4113D27156000FC677 /* InfoPlist.strings in Resources */,
 				348DDD4A13D27156000FC677 /* MainWindow.xib in Resources */,
 				348DDD5013D27156000FC677 /* Waterfall_SpaceoutViewController.xib in Resources */,
+				F8B7ADB113D27D0200A39D7F /* 1.png in Resources */,
+				F8B7ADB213D27D0200A39D7F /* 2.png in Resources */,
+				F8B7ADB313D27D0200A39D7F /* 3.png in Resources */,
+				F8B7ADB413D27D0200A39D7F /* 4.png in Resources */,
+				F8B7ADB513D27D0200A39D7F /* 5.png in Resources */,
+				F8B7ADB613D27D0200A39D7F /* 6.png in Resources */,
+				F8B7ADB713D27D0200A39D7F /* 7.png in Resources */,
+				F8B7ADB813D27D0200A39D7F /* 8.png in Resources */,
+				F8B7ADB913D27D0200A39D7F /* 9.png in Resources */,
+				F8B7ADBA13D27D0200A39D7F /* 10.png in Resources */,
+				F8B7ADBB13D27D0200A39D7F /* 11.png in Resources */,
+				F8B7ADBC13D27D0200A39D7F /* 12.png in Resources */,
+				F8B7ADBD13D27D0200A39D7F /* 13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +498,7 @@
 				348DDD6B13D27156000FC677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		348DDD6C13D27156000FC677 /* Build configuration list for PBXNativeTarget "Waterfall SpaceoutTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +507,7 @@
 				348DDD6E13D27156000FC677 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
