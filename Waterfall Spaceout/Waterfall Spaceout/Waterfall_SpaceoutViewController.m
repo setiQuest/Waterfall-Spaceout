@@ -15,6 +15,7 @@
 @synthesize images, imageView;
 @synthesize repeatingTimer;
 @synthesize imageIndex;
+@synthesize coords;
 
 - (void)dealloc
 {
@@ -59,8 +60,6 @@
     //UIImage *image2 = [images objectAtIndex:2];
     
     
-    
-    
     imageView.image = image;
     //[image2 drawAtPoint:pnt blendMode:kCGBlendModeNormal alpha:0.5];
     
@@ -100,9 +99,29 @@
     }];
     
 }
-    
-    
 
+-(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    
+    UITouch * touch = [touches anyObject];
+    CGPoint pos = [touch locationInView: [UIApplication sharedApplication].keyWindow];    
+    coords.text = [NSString stringWithFormat:@"X: %.0f Y: %.0f", pos.x, pos.y];
+    
+}
+
+-(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [[event touchesForView:self.view] anyObject];    
+    CGPoint pos = [touch locationInView:touch.view];    
+    coords.text = [NSString stringWithFormat:@"X: %.0f Y: %.0f", pos.x, pos.y];
+    
+}
+
+-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    
+}
+    
+    
 
 
 - (void)viewDidUnload

@@ -17,10 +17,14 @@
     
     int imageIndex;
     
+    IBOutlet UILabel *coords;
 }
+
 
 @property (nonatomic, retain) NSMutableArray *images;
 @property (nonatomic, retain) IBOutlet UIImageView *imageView;
+@property (nonatomic, retain) IBOutlet UILabel *coords;
+
 
 @property (retain) NSTimer* repeatingTimer;
 @property int imageIndex;
