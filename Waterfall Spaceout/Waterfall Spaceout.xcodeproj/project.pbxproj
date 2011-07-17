@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348DDD3713D27155000FC677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DDD3613D27155000FC677 /* UIKit.framework */; };
+		348DDD3913D27155000FC677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DDD3813D27155000FC677 /* Foundation.framework */; };
+		348DDD3B13D27155000FC677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DDD3A13D27155000FC677 /* CoreGraphics.framework */; };
+		348DDD4113D27156000FC677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD3F13D27156000FC677 /* InfoPlist.strings */; };
+		348DDD4413D27156000FC677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DDD4313D27156000FC677 /* main.m */; };
+		348DDD4713D27156000FC677 /* Waterfall_SpaceoutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DDD4613D27156000FC677 /* Waterfall_SpaceoutAppDelegate.m */; };
+		348DDD4A13D27156000FC677 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD4813D27156000FC677 /* MainWindow.xib */; };
+		348DDD4D13D27156000FC677 /* Waterfall_SpaceoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DDD4C13D27156000FC677 /* Waterfall_SpaceoutViewController.m */; };
+		348DDD5013D27156000FC677 /* Waterfall_SpaceoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD4E13D27156000FC677 /* Waterfall_SpaceoutViewController.xib */; };
+		348DDD5713D27156000FC677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DDD3613D27155000FC677 /* UIKit.framework */; };
+		348DDD5813D27156000FC677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DDD3813D27155000FC677 /* Foundation.framework */; };
+		348DDD5913D27156000FC677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348DDD3A13D27155000FC677 /* CoreGraphics.framework */; };
+		348DDD6113D27156000FC677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD5F13D27156000FC677 /* InfoPlist.strings */; };
+		348DDD6413D27156000FC677 /* Waterfall_SpaceoutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 348DDD6313D27156000FC677 /* Waterfall_SpaceoutTests.h */; };
+		348DDD6613D27156000FC677 /* Waterfall_SpaceoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DDD6513D27156000FC677 /* Waterfall_SpaceoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348DDD5A13D27156000FC677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 348DDD2913D27155000FC677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 348DDD3113D27155000FC677;
+			remoteInfo = "Waterfall Spaceout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		348DDD3213D27155000FC677 /* Waterfall Spaceout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Waterfall Spaceout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348DDD3613D27155000FC677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		348DDD3813D27155000FC677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		348DDD3A13D27155000FC677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		348DDD3E13D27156000FC677 /* Waterfall Spaceout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Waterfall Spaceout-Info.plist"; sourceTree = "<group>"; };
+		348DDD4013D27156000FC677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		348DDD4213D27156000FC677 /* Waterfall Spaceout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waterfall Spaceout-Prefix.pch"; sourceTree = "<group>"; };
+		348DDD4313D27156000FC677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		348DDD4513D27156000FC677 /* Waterfall_SpaceoutAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waterfall_SpaceoutAppDelegate.h; sourceTree = "<group>"; };
+		348DDD4613D27156000FC677 /* Waterfall_SpaceoutAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waterfall_SpaceoutAppDelegate.m; sourceTree = "<group>"; };
+		348DDD4913D27156000FC677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		348DDD4B13D27156000FC677 /* Waterfall_SpaceoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waterfall_SpaceoutViewController.h; sourceTree = "<group>"; };
+		348DDD4C13D27156000FC677 /* Waterfall_SpaceoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waterfall_SpaceoutViewController.m; sourceTree = "<group>"; };
+		348DDD4F13D27156000FC677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Waterfall_SpaceoutViewController.xib; sourceTree = "<group>"; };
+		348DDD5613D27156000FC677 /* Waterfall SpaceoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Waterfall SpaceoutTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348DDD5E13D27156000FC677 /* Waterfall SpaceoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Waterfall SpaceoutTests-Info.plist"; sourceTree = "<group>"; };
+		348DDD6013D27156000FC677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		348DDD6213D27156000FC677 /* Waterfall SpaceoutTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waterfall SpaceoutTests-Prefix.pch"; sourceTree = "<group>"; };
+		348DDD6313D27156000FC677 /* Waterfall_SpaceoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waterfall_SpaceoutTests.h; sourceTree = "<group>"; };
+		348DDD6513D27156000FC677 /* Waterfall_SpaceoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waterfall_SpaceoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		348DDD2F13D27155000FC677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348DDD3713D27155000FC677 /* UIKit.framework in Frameworks */,
+				348DDD3913D27155000FC677 /* Foundation.framework in Frameworks */,
+				348DDD3B13D27155000FC677 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348DDD5213D27156000FC677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348DDD5713D27156000FC677 /* UIKit.framework in Frameworks */,
+				348DDD5813D27156000FC677 /* Foundation.framework in Frameworks */,
+				348DDD5913D27156000FC677 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		348DDD2713D27155000FC677 = {
+			isa = PBXGroup;
+			children = (
+				348DDD3C13D27155000FC677 /* Waterfall Spaceout */,
+				348DDD5C13D27156000FC677 /* Waterfall SpaceoutTests */,
+				348DDD3513D27155000FC677 /* Frameworks */,
+				348DDD3313D27155000FC677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		348DDD3313D27155000FC677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				348DDD3213D27155000FC677 /* Waterfall Spaceout.app */,
+				348DDD5613D27156000FC677 /* Waterfall SpaceoutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		348DDD3513D27155000FC677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				348DDD3613D27155000FC677 /* UIKit.framework */,
+				348DDD3813D27155000FC677 /* Foundation.framework */,
+				348DDD3A13D27155000FC677 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		348DDD3C13D27155000FC677 /* Waterfall Spaceout */ = {
+			isa = PBXGroup;
+			children = (
+				348DDD4513D27156000FC677 /* Waterfall_SpaceoutAppDelegate.h */,
+				348DDD4613D27156000FC677 /* Waterfall_SpaceoutAppDelegate.m */,
+				348DDD4813D27156000FC677 /* MainWindow.xib */,
+				348DDD4B13D27156000FC677 /* Waterfall_SpaceoutViewController.h */,
+				348DDD4C13D27156000FC677 /* Waterfall_SpaceoutViewController.m */,
+				348DDD4E13D27156000FC677 /* Waterfall_SpaceoutViewController.xib */,
+				348DDD3D13D27156000FC677 /* Supporting Files */,
+			);
+			path = "Waterfall Spaceout";
+			sourceTree = "<group>";
+		};
+		348DDD3D13D27156000FC677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				348DDD3E13D27156000FC677 /* Waterfall Spaceout-Info.plist */,
+				348DDD3F13D27156000FC677 /* InfoPlist.strings */,
+				348DDD4213D27156000FC677 /* Waterfall Spaceout-Prefix.pch */,
+				348DDD4313D27156000FC677 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		348DDD5C13D27156000FC677 /* Waterfall SpaceoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				348DDD6313D27156000FC677 /* Waterfall_SpaceoutTests.h */,
+				348DDD6513D27156000FC677 /* Waterfall_SpaceoutTests.m */,
+				348DDD5D13D27156000FC677 /* Supporting Files */,
+			);
+			path = "Waterfall SpaceoutTests";
+			sourceTree = "<group>";
+		};
+		348DDD5D13D27156000FC677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				348DDD5E13D27156000FC677 /* Waterfall SpaceoutTests-Info.plist */,
+				348DDD5F13D27156000FC677 /* InfoPlist.strings */,
+				348DDD6213D27156000FC677 /* Waterfall SpaceoutTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		348DDD3113D27155000FC677 /* Waterfall Spaceout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348DDD6913D27156000FC677 /* Build configuration list for PBXNativeTarget "Waterfall Spaceout" */;
+			buildPhases = (
+				348DDD2E13D27155000FC677 /* Sources */,
+				348DDD2F13D27155000FC677 /* Frameworks */,
+				348DDD3013D27155000FC677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Waterfall Spaceout";
+			productName = "Waterfall Spaceout";
+			productReference = 348DDD3213D27155000FC677 /* Waterfall Spaceout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		348DDD5513D27156000FC677 /* Waterfall SpaceoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348DDD6C13D27156000FC677 /* Build configuration list for PBXNativeTarget "Waterfall SpaceoutTests" */;
+			buildPhases = (
+				348DDD5113D27156000FC677 /* Sources */,
+				348DDD5213D27156000FC677 /* Frameworks */,
+				348DDD5313D27156000FC677 /* Resources */,
+				348DDD5413D27156000FC677 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348DDD5B13D27156000FC677 /* PBXTargetDependency */,
+			);
+			name = "Waterfall SpaceoutTests";
+			productName = "Waterfall SpaceoutTests";
+			productReference = 348DDD5613D27156000FC677 /* Waterfall SpaceoutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		348DDD2913D27155000FC677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "SETI INSTITUTE";
+			};
+			buildConfigurationList = 348DDD2C13D27155000FC677 /* Build configuration list for PBXProject "Waterfall Spaceout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 348DDD2713D27155000FC677;
+			productRefGroup = 348DDD3313D27155000FC677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				348DDD3113D27155000FC677 /* Waterfall Spaceout */,
+				348DDD5513D27156000FC677 /* Waterfall SpaceoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		348DDD3013D27155000FC677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348DDD4113D27156000FC677 /* InfoPlist.strings in Resources */,
+				348DDD4A13D27156000FC677 /* MainWindow.xib in Resources */,
+				348DDD5013D27156000FC677 /* Waterfall_SpaceoutViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348DDD5313D27156000FC677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348DDD6113D27156000FC677 /* InfoPlist.strings in Resources */,
+				348DDD6413D27156000FC677 /* Waterfall_SpaceoutTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		348DDD5413D27156000FC677 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		348DDD2E13D27155000FC677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348DDD4413D27156000FC677 /* main.m in Sources */,
+				348DDD4713D27156000FC677 /* Waterfall_SpaceoutAppDelegate.m in Sources */,
+				348DDD4D13D27156000FC677 /* Waterfall_SpaceoutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348DDD5113D27156000FC677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348DDD6613D27156000FC677 /* Waterfall_SpaceoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348DDD5B13D27156000FC677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 348DDD3113D27155000FC677 /* Waterfall Spaceout */;
+			targetProxy = 348DDD5A13D27156000FC677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		348DDD3F13D27156000FC677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348DDD4013D27156000FC677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		348DDD4813D27156000FC677 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348DDD4913D27156000FC677 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		348DDD4E13D27156000FC677 /* Waterfall_SpaceoutViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348DDD4F13D27156000FC677 /* en */,
+			);
+			name = Waterfall_SpaceoutViewController.xib;
+			sourceTree = "<group>";
+		};
+		348DDD5F13D27156000FC677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348DDD6013D27156000FC677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		348DDD6713D27156000FC677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		348DDD6813D27156000FC677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		348DDD6A13D27156000FC677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waterfall Spaceout/Waterfall Spaceout-Prefix.pch";
+				INFOPLIST_FILE = "Waterfall Spaceout/Waterfall Spaceout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		348DDD6B13D27156000FC677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waterfall Spaceout/Waterfall Spaceout-Prefix.pch";
+				INFOPLIST_FILE = "Waterfall Spaceout/Waterfall Spaceout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		348DDD6D13D27156000FC677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Waterfall Spaceout.app/Waterfall Spaceout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waterfall SpaceoutTests/Waterfall SpaceoutTests-Prefix.pch";
+				INFOPLIST_FILE = "Waterfall SpaceoutTests/Waterfall SpaceoutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		348DDD6E13D27156000FC677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Waterfall Spaceout.app/Waterfall Spaceout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waterfall SpaceoutTests/Waterfall SpaceoutTests-Prefix.pch";
+				INFOPLIST_FILE = "Waterfall SpaceoutTests/Waterfall SpaceoutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		348DDD2C13D27155000FC677 /* Build configuration list for PBXProject "Waterfall Spaceout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348DDD6713D27156000FC677 /* Debug */,
+				348DDD6813D27156000FC677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348DDD6913D27156000FC677 /* Build configuration list for PBXNativeTarget "Waterfall Spaceout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348DDD6A13D27156000FC677 /* Debug */,
+				348DDD6B13D27156000FC677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		348DDD6C13D27156000FC677 /* Build configuration list for PBXNativeTarget "Waterfall SpaceoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348DDD6D13D27156000FC677 /* Debug */,
+				348DDD6E13D27156000FC677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 348DDD2913D27155000FC677 /* Project object */;
+}
