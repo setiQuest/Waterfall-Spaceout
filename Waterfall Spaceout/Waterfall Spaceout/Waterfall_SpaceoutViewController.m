@@ -16,6 +16,7 @@
 @synthesize repeatingTimer;
 @synthesize imageIndex;
 @synthesize coords;
+@synthesize firstButton;
 
 - (void)dealloc
 {
@@ -67,10 +68,6 @@
     repeatingTimer = [[NSTimer scheduledTimerWithTimeInterval:1.25
                       target:self selector:@selector(commandTimer:)
                       userInfo:nil repeats:YES] retain];
-
-    
-
-    
     
 }
 
@@ -104,7 +101,7 @@
     
     UITouch * touch = [touches anyObject];
     CGPoint pos = [touch locationInView: [UIApplication sharedApplication].keyWindow];    
-    coords.text = [NSString stringWithFormat:@"X: %.0f Y: %.0f", pos.x, pos.y];
+    // coords.text = [NSString stringWithFormat:@"X: %.0f Y: %.0f", pos.x, pos.y];
     
 }
 
@@ -112,7 +109,7 @@
 {
     UITouch *touch = [[event touchesForView:self.view] anyObject];    
     CGPoint pos = [touch locationInView:touch.view];    
-    coords.text = [NSString stringWithFormat:@"X: %.0f Y: %.0f", pos.x, pos.y];
+    // coords.text = [NSString stringWithFormat:@"X: %.0f Y: %.0f", pos.x, pos.y];
     
 }
 
