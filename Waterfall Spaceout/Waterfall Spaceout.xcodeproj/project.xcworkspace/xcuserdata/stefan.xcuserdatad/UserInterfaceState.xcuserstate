@@ -1211,7 +1211,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>332615737.73141497</real>
+		<real>332615745.92930299</real>
 		<string>{0, 716}</string>
 		<string>{421, 0}</string>
 		<dict>
@@ -1345,7 +1345,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>332615737.73165202</real>
+		<real>332615740.85122198</real>
 		<string>{0, 814}</string>
 		<integer>0</integer>
 		<dict>
@@ -3107,7 +3107,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>332615737.73256397</real>
+		<real>332615745.92997998</real>
 		<string>{0, 716}</string>
 		<string>{421, 0}</string>
 		<string>@interface Waterfall_SpaceoutViewController</string>
