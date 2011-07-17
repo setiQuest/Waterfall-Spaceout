@@ -49,6 +49,17 @@
               [UIImage imageNamed:@"12.png"],
               [UIImage imageNamed:@"13.png"],
      nil];
+    
+    //Start the timer
+    repeatingTimer = [[NSTimer scheduledTimerWithTimeInterval:0.5
+                       target:self selector:@selector(commandTimer:)
+                       userInfo:nil repeats:YES] retain];
+    
+    
+}
+
+- (void)commandTimer:(NSTimer*)theTimer
+{
 }
 
 

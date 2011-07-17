@@ -12,8 +12,14 @@
     
     NSMutableArray *images;
     
+    NSTimer *repeatingTimer;
+    
 }
 
 @property (nonatomic, retain) NSMutableArray *images;
+
+@property (retain) NSTimer* repeatingTimer;
+
+- (void)commandTimer:(NSTimer*)theTimer;
 
 @end
