@@ -11,14 +11,19 @@
 @interface Waterfall_SpaceoutViewController : UIViewController {
     
     NSMutableArray *images;
+    IBOutlet UIImageView *imageView;
     
     NSTimer *repeatingTimer;
+    
+    int imageIndex;
     
 }
 
 @property (nonatomic, retain) NSMutableArray *images;
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
 
 @property (retain) NSTimer* repeatingTimer;
+@property int imageIndex;
 
 - (void)commandTimer:(NSTimer*)theTimer;
 
